@@ -26,8 +26,22 @@
     <h1>Comparativa OSI vs. TCP/IP</h1>
 
     <ul>
-      <li><a data-toggle="modal" href="#modal-capa1">Capa 1</a></li>
-      <li><a data-toggle="modal" href="#modal-capa2">Capa 2</a></li>
+      <li>OSI</li>
+      <li><a data-toggle="modal" href="#modal-capa1">Capa física</a></li>
+      <li><a data-toggle="modal" href="#modal-capa2">Capa de enlace de datos</a></li>
+      <li><a data-toggle="modal" href="#modal-capa3">Capa de red</a></li>
+      <li><a data-toggle="modal" href="#modal-capa4">Capa de transporte</a></li>
+      <li><a data-toggle="modal" href="#modal-capa5">Capa de sesión</a></li>
+      <li><a data-toggle="modal" href="#modal-capa6">Capa de presentación</a></li>
+      <li><a data-toggle="modal" href="#modal-capa7">Capa de aplicación</a></li>
+      <!-- Agrega el resto de las capas aqui -->
+    </ul>
+    <ul>
+      <li>OSI</li>
+      <li><a data-toggle="modal" href="#modal-capa8">Capa de Acceso a la Red</a></li>
+      <li><a data-toggle="modal" href="#modal-capa9">Capa de Internet</a></li>
+      <li><a data-toggle="modal" href="#modal-capa10">Capa de Transporte</a></li>
+      <li><a data-toggle="modal" href="#modal-capa11">Capa de Aplicación</a></li>
       <!-- Agrega el resto de las capas aqui -->
     </ul>
 
@@ -44,18 +58,12 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>La Capa 1 del modelo OSI es la capa fisica. Esta capa se encarga de la transmision fisica de los datos a traves de medios de comunicacion fisicos, como cables y senales electricas.</p>
-          <p>Algunas funciones y caracteristicas de la Capa 1 son:</p>
-          <ul>
-            <li>Definicion de las caracteristicas electricas, mecanicas y funcionales de los medios de transmision.</li>
-            <li>Transmision y recepcion de bits sin formato.</li>
-            <li>Control de la sincronizacion y el reloj.</li>
-          </ul>
+          <p> Esta capa se ocupa de la transmisión física de los datos a través del medio de red. Se encarga de los aspectos eléctricos, mecánicos y funcionales de la transmisión de datos.</p>
         </div>
       </div>
     </div>
   </div>
-
+  <!-- Modales -->
   <div class="modal fade" id="modal-capa2">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -66,16 +74,157 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>La Capa 2
-            <ul>
-                <li>Encapsulacion de los datos en tramas.</li>
-                <li>Control de flujo y deteccion de errores en la transmision de datos.</li>
-                <li>Acceso al medio y control de acceso al medio.</li>
-              </ul>
-              </div>
-              </div>
-              </div>
-              </div>
+          <p>Esta capa se encarga de la transmisión confiable de datos a través de un enlace físico. Proporciona la detección y corrección de errores, control de flujo y control de acceso al medio.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modales -->
+  <div class="modal fade" id="modal-capa3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 3 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Esta capa se encarga del enrutamiento de los paquetes de datos a través de la red. Se ocupa de establecer, mantener y finalizar las conexiones de red, y también de la fragmentación y reensamblaje de los paquetes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modales -->
+  <div class="modal fade" id="modal-capa4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 4 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>La capa de transporte garantiza una comunicación confiable y eficiente entre los dispositivos finales. Se encarga de dividir los datos en segmentos, proporcionar control de flujo y control de errores, y asegurar que los datos lleguen en el orden correcto.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modales -->
+  <div class="modal fade" id="modal-capa5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 5 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>La capa de sesión se encarga de establecer, mantener y finalizar las sesiones de comunicación entre las aplicaciones. Proporciona servicios de diálogo y control de sincronización.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modales -->
+  <div class="modal fade" id="modal-capa6">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 6 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Esta capa se encarga de la representación y el formato de los datos para garantizar la compatibilidad entre los diferentes sistemas. Se ocupa de la codificación, compresión y encriptación de los datos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modales -->
+  <div class="modal fade" id="modal-capa7">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 7 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Capa de aplicación: La capa de aplicación es la capa más alta del modelo OSI y se encarga de proporcionar servicios de red a las aplicaciones. Incluye protocolos como HTTP, FTP, SMTP, entre otros.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modales -->
+    <div class="modal fade" id="modal-capa8">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Informacion Capa 1 - Modelo TCP/IP</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Esta capa se encarga de la transmisión física de los datos a través del medio de red. Incluye protocolos como Ethernet, Wi-Fi y PPP.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modales -->
+    <div class="modal fade" id="modal-capa9">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Informacion Capa 2 - Modelo TCP/IP</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>La capa de Internet maneja el direccionamiento lógico y el enrutamiento de los paquetes de datos. El protocolo principal en esta capa es el Protocolo de Internet (IP).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modales -->
+    <div class="modal fade" id="modal-capa10">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Informacion Capa 3 - Modelo OSI</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Esta capa se encarga de la entrega confiable de datos entre dispositivos finales. Los protocolos principales son TCP (Transmission Control Protocol) y UDP (User Datagram Protocol).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modales -->
+    <div class="modal fade" id="modal-capa11">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Informacion Capa 4 - Modelo OSI</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>La capa de aplicación es donde las aplicaciones interactúan con la red. Incluye protocolos como HTTP, FTP, SMTP, DNS, entre otros.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
               <!-- Agrega el resto de los modales aqui -->
               <!-- Pagina de ciberseguridad -->
               <div class="container mt-4">
