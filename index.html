@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagina principal</title>
+  <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Pagina</a>
+
+      <!-- Buscador -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container mt-4">
+
+    <h1>Comparativa OSI vs. TCP/IP</h1>
+
+    <ul>
+      <li><a data-toggle="modal" href="#modal-capa1">Capa 1</a></li>
+      <li><a data-toggle="modal" href="#modal-capa2">Capa 2</a></li>
+      <!-- Agrega el resto de las capas aqui -->
+    </ul>
+
+  </div>
+
+  <!-- Modales -->
+  <div class="modal fade" id="modal-capa1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 1 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>La Capa 1 del modelo OSI es la capa fisica. Esta capa se encarga de la transmision fisica de los datos a traves de medios de comunicacion fisicos, como cables y senales electricas.</p>
+          <p>Algunas funciones y caracteristicas de la Capa 1 son:</p>
+          <ul>
+            <li>Definicion de las caracteristicas electricas, mecanicas y funcionales de los medios de transmision.</li>
+            <li>Transmision y recepcion de bits sin formato.</li>
+            <li>Control de la sincronizacion y el reloj.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-capa2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Informacion Capa 2 - Modelo OSI</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>La Capa 2
+            <ul>
+                <li>Encapsulacion de los datos en tramas.</li>
+                <li>Control de flujo y deteccion de errores en la transmision de datos.</li>
+                <li>Acceso al medio y control de acceso al medio.</li>
+              </ul>
+              </div>
+              </div>
+              </div>
+              </div>
+              <!-- Agrega el resto de los modales aqui -->
+              <!-- Pagina de ciberseguridad -->
+              <div class="container mt-4">
+                <h1>Ciberseguridad: Preguntas y Respuestas</h1>
+                <div class="card">
+                  <div class="card-header" id="pregunta1">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta1" aria-expanded="true" aria-controls="respuesta1" >
+                        <h5>Ejemplos de principales tipos de ciberdelincuencia</h5>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="respuesta1" class="collapse" aria-labelledby="pregunta1" data-parent="#preguntasAccordion" >
+                    <div class="card-body">
+                      <p>Algunos ejemplos de principales tipos de ciberdelincuencia son:</p>
+                      <ul>
+                        <li>Fraude en linea y estafas financieras.</li>
+                        <li>Robo de identidad.</li>
+                        <li>Ataques de ransomware.</li>
+                        <li>Phishing y suplantacion de identidad.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- -->
+              <div class="accordion" id="preguntasAccordion">
+                <div class="card">
+                  <div class="card-header" id="pregunta2">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta2" aria-expanded="true" aria-controls="respuesta2" >
+                        <h5>Motivos del aumento de los ciberdelitos:</h5>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="respuesta2" class="collapse" aria-labelledby="pregunta2" data-parent="#preguntasAccordion" >
+                    <div class="card-body">
+                      <p>Existen diversos motivos que impulsan el aumento de los ciberdelitos, algunos de los cuales son:</p>
+                      <ul>
+                        <li>La falta de conciencia y conocimiento de las personas en cuanto a la importancia de la seguridad cibernetica.</li>
+                        <li>El aumento del uso de dispositivos y tecnologias conectadas a Internet, lo que aumenta la superficie de ataque.</li>
+                        <li>El crecimiento del comercio electronico y las transacciones en linea, lo que convierte a las empresas en objetivos atractivos para los ciberdelincuentes.</li>
+                        <li>La falta de una regulacion adecuada y la impunidad en algunos paises.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- -->
+              <div class="accordion" id="preguntasAccordion">
+                <div class="card">
+                  <div class="card-header" id="pregunta3">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta3" aria-expanded="true" aria-controls="respuesta3" >
+                        <h5>Quienes suelen ser los ciberdelincuentes:</h5>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="respuesta3" class="collapse" aria-labelledby="pregunta3" data-parent="#preguntasAccordion" >
+                    <div class="card-body">
+                      <p>Existen diversos motivos que impulsan el aumento de los ciberdelitos, algunos de los cuales son:</p>
+                      <ul>
+                        <li>La falta de conciencia y conocimiento de las personas en cuanto a la importancia de la seguridad cibernetica.</li>
+                        <li>El aumento del uso de dispositivos y tecnologias conectadas a Internet, lo que aumenta la superficie de ataque.</li>
+                        <li>El crecimiento del comercio electronico y las transacciones en linea, lo que convierte a las empresas en objetivos atractivos para los ciberdelincuentes.</li>
+                        <li>La falta de una regulacion adecuada y la impunidad en algunos paises.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- -->
+              <div class="accordion" id="preguntasAccordion">
+                <div class="card">
+                  <div class="card-header" id="pregunta14">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta14" aria-expanded="true" aria-controls="respuesta14" >
+                        <h5>Como se les captura?</h5>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="respuesta14" class="collapse" aria-labelledby="pregunta14" data-parent="#preguntasAccordion" >
+                    <div class="card-body">
+                      <ul>
+                        <li>Recopilacion de evidencia: Es fundamental recopilar pruebas solidas y forenses digitales para respaldar el caso contra los ciberdelincuentes. Esto implica recolectar registros de actividad, logs de servidores, capturas de pantalla, registros de comunicaciones y cualquier otra evidencia digital relevante que pueda ayudar en la investigacion.</li>
+                        <li>Colaboracion con fuerzas del orden: Las agencias encargadas de hacer cumplir la ley, como la policia, el FBI o la Interpol, deben estar involucradas en el proceso de captura. Los expertos en seguridad cibernetica pueden proporcionar la informacion y la evidencia recopilada a las autoridades competentes para que inicien una investigacion oficial.</li>
+                        <li>Rastreo de direcciones IP: Los ciberdelincuentes suelen utilizar direcciones IP para llevar a cabo sus ataques. Los investigadores pueden rastrear estas direcciones IP para identificar la ubicacion aproximada del atacante. Sin embargo, el rastreo de IP puede ser complicado debido a tecnicas de enmascaramiento y uso de redes privadas virtuales (VPN) por parte de los ciberdelincuentes.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta4">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta4" aria-expanded="true" aria-controls="respuesta4" >
+                          <h5>Motivaciones de los ciberdelincuentes:</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta4" class="collapse" aria-labelledby="pregunta4" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>Los ciberdelincuentes tienen diversas motivaciones para realizar sus ataques, que pueden incluir:</p>
+                        <ul>
+                          <li>Obtener beneficios financieros a traves de extorsiones, robo de identidad o fraudes en linea.</li>
+                          <li>Espionaje industrial para obtener informacion sensible de empresas y organizaciones.</li>
+                          <li>Activismo politico o social, con el objetivo de difundir mensajes o causas especificas.</li>
+                          <li>Busqueda de reconocimiento o prestigio entre la comunidad de hackers.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta5">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta5" aria-expanded="true" aria-controls="respuesta5" >
+                          <h5>Que es la DeepWeb, y diferencia con la DarkWeb:</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta5" class="collapse" aria-labelledby="pregunta5" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>La DeepWeb es una parte de Internet que no esta indexada por los motores de busqueda convencionales y a la que no se puede acceder a traves de navegadores normales. En la DeepWeb se encuentran contenidos que no son publicos y requieren autenticacion para acceder a ellos, como documentos corporativos o bases de datos gubernamentales.</p>
+                        <ul>
+                          <p>La DarkWeb, por otro lado, es una red dentro de la DeepWeb que se utiliza para actividades ilegales y anonimas, como el trafico de drogas, la venta de armas, el comercio de informacion robada, entre otros. Para acceder a la DarkWeb se necesita un software especial y el anonimato es clave.</p>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta6">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta6" aria-expanded="true" aria-controls="respuesta6" >
+                          <h5>Que capas del modelo OSI son implementadas por el sistema operativo (software) y cuales estan implementadas por hardware:</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta6" class="collapse" aria-labelledby="pregunta6" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>El modelo OSI (Open Systems Interconnection) se compone de 7 capas. A continuacion, se muestra como se implementan en terminos de software y hardware:</p>
+                        <ul>
+                          <p>Capas implementadas por el software (sistema operativo u otro software):</p>
+                          <li>Capa de aplicacion: Esta capa es implementada principalmente por el software, que proporciona servicios de red a las aplicaciones. Ejemplos de protocolos de esta capa son HTTP, SMTP y FTP.</li>
+                          <li>Capa de presentacion: Esta capa se encarga de la representacion y el formato de los datos. El software se encarga de convertir los datos en un formato adecuado para su transmision. Ejemplos de protocolos de esta capa son SSL y TLS.</li>
+                          <li>Capa de sesion: Esta capa se encarga de establecer, mantener y finalizar sesiones de comunicacion entre dispositivos. El software gestiona la apertura y cierre de sesiones. Ejemplos de protocolos de esta capa son SIP y NetBIOS.</li>
+                          <li>Capa de transporte: Esta capa proporciona la entrega confiable de los datos y se encarga de dividir los datos en segmentos mas pequenos. El software se encarga de controlar el flujo y la secuencia de los segmentos. Ejemplos de protocolos de esta capa son TCP y UDP.</li>
+                        </ul>
+                        <ul>
+                          <p>Capas implementadas por el hardware:</p>
+                          <li>Capa de red: Esta capa se encarga del enrutamiento de los datos a traves de la red. El hardware de enrutamiento, como los routers, implementa esta capa. Ejemplos de protocolos de esta capa son IP y ICMP.</li>
+                          <li>Capa de enlace de datos: Esta capa se encarga de la transmision de datos entre nodos adyacentes en la red. El hardware de red, como las tarjetas de red, implementa esta capa. Ejemplos de protocolos de esta capa son Ethernet y Wi-Fi.</li>
+                          <li>Capa fisica: Esta capa se encarga de la transmision fisica de los bits a traves de los medios de comunicacion. El hardware, como los cables y los transceptores, implementa esta capa.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta15">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta15" aria-expanded="true" aria-controls="respuesta15" >
+                          <h5>Describe que es y como se utiliza NMap.</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta15" class="collapse" aria-labelledby="pregunta15" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>El modelo OSI (Open Systems Interconnection) se compone de 7 capas. A continuacion, se muestra como se implementan en terminos de software y hardware:</p>
+                        <ul>
+                          <li>1. Instalacion: Primero, debes instalar Nmap en tu sistema. Puedes descargarlo desde el sitio oficial de Nmap (https://nmap.org/) y seguir las instrucciones de instalacion adecuadas para tu sistema operativo.</li>
+                          <li>2. Ejecucion basica: Una vez que Nmap este instalado, puedes ejecutarlo desde la linea de comandos. Aqui tienes un ejemplo basico de comando Nmap:</li>
+                          <li>3. Escaneo de puertos: Una de las caracteristicas principales de Nmap es el escaneo de puertos. Puedes utilizar diferentes tecnicas de escaneo de puertos segun tus necesidades. Por ejemplo, el siguiente comando realiza un escaneo TCP rapido a traves de los 1000 puertos mas comunes</li>
+                          <li>4. Deteccion de sistemas operativos: Nmap tambien puede intentar detectar el sistema operativo en los hosts escaneados. Puedes utilizar la opcion -O para habilitar la deteccion del sistema operativo. </li>
+                          <li>5. Salida detallada: Nmap proporciona una salida detallada con informacion sobre los puertos, servicios y sistemas operativos detectados. Puedes utilizar la opcion -o seguida de un nombre de archivo para guardar la salida en un archivo para su posterior analisis. </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta16">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta16" aria-expanded="true" aria-controls="respuesta16" >
+                          <h5>Describe que es y como funciona el escaneo ARP</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta16" class="collapse" aria-labelledby="pregunta16" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>El funcionamiento del escaneo ARP se basa en el intercambio de mensajes ARP entre los dispositivos de la red. Aqui tienes una descripcion general de como funciona:</p>
+                        <ul>
+                          <li>Funcionamiento del protocolo ARP: Cuando un dispositivo en una red local necesita enviar datos a otro dispositivo, necesita conocer la direccion MAC correspondiente a la direccion IP de destino. El protocolo ARP permite obtener esta informacion.</li>
+                          <li>Envio de solicitud ARP: El dispositivo emisor envia una solicitud ARP de difusion (broadcast) a toda la red local, preguntando: "Quien tiene la direccion IP X?". La solicitud ARP contiene la direccion IP del dispositivo emisor y su direccion MAC.</li>
+                          <li>Respuesta ARP: El dispositivo que tiene la direccion IP solicitada responde con una respuesta ARP, indicando su direccion MAC correspondiente. Esta respuesta se envia directamente al dispositivo emisor.</li>
+                          <li>Registro en la tabla ARP: Una vez que el dispositivo emisor recibe la respuesta ARP, registra la direccion IP y la direccion MAC asociada en su tabla ARP. Esta tabla se utiliza para mantener un registro de las correspondencias entre direcciones IP y direcciones MAC en la red local. </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta16">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta16" aria-expanded="true" aria-controls="respuesta16" >
+                          <h5>Describe en que consiste el escaneo de puertos.</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta16" class="collapse" aria-labelledby="pregunta16" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <ul>
+                          <li>Identificacion del objetivo: Primero, se selecciona el dispositivo o sistema que se va a escanear. Puede ser una direccion IP especifica o un rango de direcciones IP.</li>
+                          <li>Seleccion de tecnicas de escaneo: Existen diferentes tecnicas de escaneo de puertos disponibles, cada una con su enfoque y nivel de sigilo. Algunas de las tecnicas comunes incluyen:
+
+                            Escaneo TCP: Esta tecnica envia paquetes TCP (Transmission Control Protocol) a traves de los diferentes puertos y analiza las respuestas. Si se recibe una respuesta, significa que el puerto esta abierto y hay un servicio en ejecucion en ese puerto.
+                            
+                            Escaneo UDP: Similar al escaneo TCP, esta tecnica envia paquetes UDP (User Datagram Protocol) a traves de los puertos y analiza las respuestas. Los puertos que devuelven una respuesta se consideran abiertos.
+                            
+                            Escaneo de puertos SYN: Esta tecnica utiliza paquetes SYN (Synchronize) para iniciar una conexion con los puertos en el dispositivo objetivo. Si se recibe una respuesta SYN/ACK (Acknowledge), significa que el puerto esta abierto.
+                            
+                            Escaneo furtivo (stealth scanning): Estas tecnicas, como el escaneo FIN, XMAS o NULL, envian paquetes que no siguen la estructura normal de una conexion. Esto puede ayudar a evitar la deteccion de los sistemas de seguridad, pero puede ser menos confiable en terminos de resultados.</li>
+                          <li>Analisis de respuestas: A medida que se envian los paquetes y se reciben las respuestas, se analizan para determinar el estado de los puertos. Los puertos abiertos indican que hay servicios o aplicaciones en ejecucion en esos puertos, mientras que los puertos cerrados o filtrados indican que no se ha detectado ninguna respuesta o que se ha bloqueado el acceso.</li>
+                          <li>Informe de resultados: Una vez completado el escaneo, se genera un informe que muestra los puertos encontrados abiertos, cerrados o filtrados en el dispositivo objetivo. Este informe puede ayudar a identificar vulnerabilidades, servicios expuestos o posibles riesgos de seguridad.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta17">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta17" aria-expanded="true" aria-controls="respuesta17" >
+                          <h5>Describe como funciona el escaneo de puertos TCP. Mostrar captura de pantalla de su funcionamiento. Se puede usar cualquier programa de la documentacion u otro distinto de Linux o Mac.</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta17" class="collapse" aria-labelledby="pregunta17" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <ul>
+                          <li>Identificacion del objetivo: Selecciona el dispositivo o sistema que se va a escanear y obten su direccion IP.</li>
+                          <li>Seleccion de una herramienta de escaneo de puertos TCP: Hay varias herramientas disponibles para realizar escaneos de puertos TCP, como Nmap, que es ampliamente utilizado y ofrece muchas opciones y funcionalidades. En este ejemplo, utilizaremos Nmap.</li>
+                          <li>Ejecucion del escaneo de puertos TCP con Nmap: Abre una terminal o una linea de comandos y ejecuta el siguiente comando:</li>
+                          <li>nmap -p <puertos> <direccion_IP></li>
+                          <li>Analisis de los resultados: Una vez que se completa el escaneo, Nmap mostrara los resultados en la terminal o linea de comandos. Los puertos abiertos se mostraran como "open", los puertos cerrados se mostraran como "closed" y los puertos filtrados o no accesibles se mostraran como "filtered".</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta18">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta18" aria-expanded="true" aria-controls="respuesta18" >
+                          <h5>Describe como funciona el escaneo de puertos UDP. Mostrar captura de pantalla de su funcionamiento. Se puede usar cualquier programa de la documentacion u otro distinto de Linux o Mac.</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta18" class="collapse" aria-labelledby="pregunta18" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <ul>
+                          <li>Identificacion del objetivo: Selecciona el dispositivo o sistema que se va a escanear y obten su direccion IP.</li>
+                          <li>Seleccion de una herramienta de escaneo de puertos TCP: Hay varias herramientas disponibles para realizar escaneos de puertos TCP, como Nmap, que es ampliamente utilizado y ofrece muchas opciones y funcionalidades. En este ejemplo, utilizaremos Nmap.</li>
+                          <li>Ejecucion del escaneo de puertos TCP con Nmap: Abre una terminal o una linea de comandos y ejecuta el siguiente comando:</li>
+                          <li>nmap -sU -p <puertos> <direccion_IP></li>
+                          <li>Analisis de los resultados: Una vez que se completa el escaneo, Nmap mostrara los resultados en la terminal o linea de comandos. Los puertos abiertos se mostraran como "open", los puertos cerrados se mostraran como "closed" y los puertos filtrados o no accesibles se mostraran como "filtered".</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta19">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta19" aria-expanded="true" aria-controls="respuesta19" >
+                          <h5>Describe los principales tipos de ataques de red.</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta19" class="collapse" aria-labelledby="pregunta19" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <ul>
+                          <li>Ataques de denegacion de servicio (DoS): Estos ataques buscan abrumar un sistema o red con una gran cantidad de trafico o solicitudes, lo que provoca una interrupcion o una degradacion significativa del servicio. El objetivo es agotar los recursos disponibles, como el ancho de banda de la red o la capacidad de procesamiento del sistema, para hacer que el servicio sea inaccesible para los usuarios legitimos.</li>
+                          <li>Ataques de fuerza bruta: Consisten en intentar adivinar contrasenas o claves de cifrado mediante la prueba sistematica de todas las posibles combinaciones. Los atacantes utilizan programas automatizados para realizar miles o incluso millones de intentos en un corto periodo de tiempo, con la esperanza de encontrar la combinacion correcta.</li>
+                          <li>Ataques de phishing: Estos ataques se basan en la ingenieria social y buscan enganar a los usuarios para que revelen informacion confidencial, como contrasenas, numeros de tarjetas de credito o informacion personal. Los atacantes suelen enviar correos electronicos o mensajes falsos que se hacen pasar por entidades legitimas, como bancos o servicios en linea populares, y solicitan a los usuarios que proporcionen sus datos sensibles en sitios web falsificados.</li>
+                          <li>Ataques de inyeccion de codigo: Los atacantes aprovechan las vulnerabilidades en las aplicaciones web para insertar y ejecutar codigo malicioso en el servidor o en el cliente. El ataque mas comun es el SQL injection, donde se insertan comandos SQL en formularios de entrada para manipular la base de datos subyacente.</li>
+                          <li>Ataques de hombre en el medio (MitM): En este tipo de ataque, el atacante se situa entre el remitente y el destinatario legitimos y puede interceptar, modificar o incluso insertar comunicaciones sin ser detectado. Esto puede permitir al atacante robar informacion confidencial, como credenciales de inicio de sesion o datos financieros.</li>
+                          <li>Ataques de spoofing: Los ataques de spoofing implican falsificar o suplantar la direccion IP, la direccion MAC u otras identidades en un intento de enganar a los sistemas y hacer que crean que el atacante es una fuente confiable. Esto puede permitir al atacante realizar actividades maliciosas, como robar informacion o realizar ataques de denegacion de servicio.</li>
+                          <li>Ataques de malware: Los ataques de malware implican la entrega de software malicioso a traves de diferentes medios, como correos electronicos infectados, descargas no seguras o sitios web comprometidos. Los tipos comunes de malware incluyen virus, gusanos, troyanos y ransomware, que pueden danar o controlar el sistema afectado.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta20">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta20" aria-expanded="true" aria-controls="respuesta20" >
+                          <h5>Que son las vulnerabilidades IDOR?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta20" class="collapse" aria-labelledby="pregunta20" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>La vulnerabilidad IDOR ocurre cuando el identificador de un objeto interno, como un numero de ID o una URL, se utiliza directamente en la logica de la aplicacion o en la generacion de solicitudes, sin verificar si el usuario tiene los permisos adecuados para acceder a ese objeto en particular. Esto permite a un atacante manipular el identificador y acceder a objetos o datos de otros usuarios o de areas restringidas del sistema.
+
+                          Un ejemplo comun de una vulnerabilidad IDOR es cuando una aplicacion web utiliza el identificador de un objeto, como el numero de identificacion de un usuario, en la URL para acceder a su perfil. Si no se realiza una verificacion adecuada de los permisos, un atacante podria modificar el numero de identificacion en la URL y acceder a los perfiles de otros usuarios sin autorizacion.
+                          
+                          Las vulnerabilidades IDOR pueden tener consecuencias graves, ya que permiten el acceso no autorizado a informacion sensible, como datos personales, registros financieros o informacion confidencial de la empresa. Los atacantes pueden explotar esta vulnerabilidad para realizar acciones maliciosas, como robar datos, modificar registros, eliminar archivos o realizar acciones en nombre de otros usuarios legitimos.
+                          
+                          Para prevenir las vulnerabilidades IDOR, es importante seguir buenas practicas de seguridad, como implementar una adecuada autenticacion y autorizacion en el sistema, utilizar identificadores opacos en lugar de numeros secuenciales como identificadores de objetos y realizar verificaciones de permisos en cada acceso a objetos internos. Ademas, las pruebas de seguridad, como las pruebas de penetracion y el analisis de codigo, pueden ayudar a identificar y mitigar las vulnerabilidades IDOR antes de que sean explotadas por atacantes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta7">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta7" aria-expanded="true" aria-controls="respuesta7" >
+                          <h5>Que es la autenticacion multifactor?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta7" class="collapse" aria-labelledby="pregunta7" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>La autenticacion multifactor es un metodo de autenticacion que requiere que el usuario proporcione dos o mas formas diferentes de identificacion antes de acceder a un sistema o servicio. Normalmente, estas formas de identificacion incluyen una contrasena y algun tipo de factor adicional, como un codigo generado por una aplicacion de autenticacion, una huella dactilar o un escaneo de retina. Este metodo es mas seguro que la autenticacion de contrasena unica, ya que incluso si un atacante logra obtener la contrasena del usuario, aun necesitara el segundo factor para acceder a la cuenta.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta9">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta9" aria-expanded="true" aria-controls="respuesta9" >
+                          <h5>En que consiste el SQL injection?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta9" class="collapse" aria-labelledby="pregunta9" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>El SQL injection es una tecnica de ataque comun en la cual un atacante inserta codigo SQL malicioso en una consulta SQL enviada a una aplicacion web, con el objetivo de manipular la base de datos subyacente. Esta vulnerabilidad ocurre cuando una aplicacion web no valida o sanitiza adecuadamente la entrada del usuario antes de construir consultas SQL dinamicamente.</p>
+                        <p>Mediante el SQL injection, un atacante puede realizar diversas acciones, como obtener informacion confidencial de la base de datos, modificar o eliminar datos, o incluso ejecutar comandos arbitrarios en el sistema. Para prevenir el SQL injection, es fundamental utilizar consultas parametrizadas o preparadas, y validar y sanitizar correctamente la entrada del usuario antes de incorporarla en las consultas SQL.</p>
+                
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta10">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta10" aria-expanded="true" aria-controls="respuesta10" >
+                          <h5>En que consiste el ataque XSS?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta10" class="collapse" aria-labelledby="pregunta10" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>El ataque XSS (Cross-Site Scripting) es una vulnerabilidad que permite a los atacantes insertar scripts maliciosos en paginas web vistas por otros usuarios. Estos scripts se ejecutan en el navegador de las victimas, lo que les permite robar informacion confidencial, redirigir a los usuarios a sitios falsos, modificar el contenido de la pagina y realizar otras acciones indeseadas.</p>
+                <p>El XSS ocurre cuando una aplicacion web no valida o escapa adecuadamente la entrada del usuario antes de mostrarla en las paginas web. Los atacantes aprovechan esta vulnerabilidad para insertar codigo malicioso, generalmente en forma de JavaScript, que se ejecuta en el contexto del navegador de la victima.</p>
+                <p>Para prevenir el XSS, es importante implementar medidas de seguridad, como validar y escapar correctamente la entrada del usuario, utilizar encabezados de seguridad HTTP adecuados y aplicar politicas de contenido seguro en el navegador. Tambien es recomendable utilizar frameworks y bibliotecas de desarrollo que incorporen mecanismos de proteccion contra XSS.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta11">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta11" aria-expanded="true" aria-controls="respuesta11" >
+                          <h5>Como se puede proteger una red Wi-Fi?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta11" class="collapse" aria-labelledby="pregunta11" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>Para proteger una red Wi-Fi, se pueden implementar varias medidas de seguridad:</p>
+                        <ul>
+                          <li>Utilizar un cifrado solido: Configurar la red Wi-Fi para utilizar el protocolo de cifrado WPA2 o WPA3 (Wi-Fi Protected Access) en lugar de WEP (Wired Equivalent Privacy), ya que este ultimo es menos seguro. Ademas, es importante establecer una contrasena segura y cambiarla regularmente.</li>
+                          <li>Ocultar el nombre de la red (SSID): Desactivar la difusion del nombre de la red (SSID) para que no sea visible para dispositivos cercanos. Esto puede dificultar el acceso no autorizado a la red.</li>
+                          <li>Filtrar direcciones MAC: Configurar el enrutador Wi-Fi para permitir unicamente las conexiones de dispositivos cuyas direcciones MAC esten en una lista de acceso autorizado. Esto ayuda a evitar que dispositivos no autorizados se conecten a la red.</li>
+                          <li>Establecer niveles de acceso: Configurar diferentes niveles de acceso para los usuarios de la red Wi-Fi. Por ejemplo, se pueden crear redes separadas para invitados con acceso limitado a los recursos de la red principal.</li>
+                          <li>Actualizar el firmware del enrutador: Mantener actualizado el firmware del enrutador Wi-Fi con las ultimas correcciones de seguridad proporcionadas por el fabricante.</li>
+                          <li>Desactivar funciones innecesarias: Desactivar funciones de enrutador que no se utilizan, como UPnP (Universal Plug and Play) o WPS (Wi-Fi Protected Setup), ya que pueden presentar vulnerabilidades de seguridad.</li>
+                          <li>Configurar un cortafuegos: Utilizar un cortafuegos (firewall) en el enrutador para controlar y filtrar el trafico de red entrante y saliente. Esto ayuda a proteger la red de posibles amenazas externas.</li>
+                          <li>Configurar un cortafuegos: Utilizar un cortafuegos (firewall) en el enrutador para controlar y filtrar el trafico de red entrante y saliente. Esto ayuda a proteger la red de posibles amenazas externas.</li>
+                          <li>Utilizar una VPN (Virtual Private Network): Si se requiere un nivel adicional de seguridad, especialmente al conectarse a redes Wi-Fi publicas, se puede considerar el uso de una VPN para cifrar y proteger las comunicaciones.</li>
+                          <li>Educar a los usuarios: Brindar educacion y concientizacion sobre practicas de seguridad cibernetica a los usuarios de la red, como el uso de contrasenas seguras, evitar hacer clic en enlaces sospechosos y no compartir informacion confidencial a traves de la red Wi-Fi.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta12">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta12" aria-expanded="true" aria-controls="respuesta12" >
+                          <h5>Como se realizan los hackeos por ingenieria social?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta12" class="collapse" aria-labelledby="pregunta12" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>La ingenieria social es una tecnica utilizada por los hackers para manipular psicologicamente a las personas y obtener informacion confidencial o acceso no autorizado a sistemas. Algunas formas comunes de hackeo por ingenieria social incluyen:</p>
+                        <ul>
+                          <li>Phishing: Los hackers envian correos electronicos o mensajes falsos que parecen legitimos, solicitando a las personas que revelen informacion confidencial como contrasenas, numeros de tarjetas de credito o datos personales. Estos mensajes suelen incluir enlaces a sitios web falsos que imitan a sitios autenticos.</li>
+                          <li>Vishing: Similar al phishing, pero en lugar de utilizar correos electronicos, los hackers utilizan llamadas telefonicas. Se hacen pasar por representantes de empresas o instituciones legitimas y solicitan informacion confidencial a las victimas.</li>
+                          <li>Ingenieria social presencial: Los hackers interactuan directamente con las personas en entornos fisicos, como oficinas o conferencias, para obtener informacion o acceso no autorizado. Pueden hacerse pasar por empleados, contratistas o tecnicos de soporte y utilizar tacticas persuasivas para enganar a las personas.</li>
+                          <li>Pretexting: Consiste en inventar una historia ficticia para ganar la confianza de las personas y obtener informacion. Los hackers pueden hacerse pasar por empleados, autoridades o amigos para obtener datos confidenciales o acceso a sistemas.</li>
+                          <li>Spear phishing: Es una forma mas dirigida de phishing, en la cual los hackers investigan y personalizan los mensajes de manera especifica para sus objetivos. Utilizan informacion obtenida de fuentes publicas o brechas de seguridad para aumentar la credibilidad del mensaje.</li>
+                          <p>Para protegerse de los hackeos por ingenieria social, es importante mantenerse alerta y seguir buenas practicas de seguridad, como no revelar informacion confidencial a traves de medios no seguros, verificar la autenticidad de las solicitudes antes de responder y utilizar herramientas de seguridad, como filtros de correo electronico y programas antivirus, para detectar y bloquear intentos de phishing o malware.</p>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+                <div class="accordion" id="preguntasAccordion">
+                  <div class="card">
+                    <div class="card-header" id="pregunta13">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#respuesta13" aria-expanded="true" aria-controls="respuesta13" >
+                          <h5>Que es el Credential Stuffing?</h5>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="respuesta13" class="collapse" aria-labelledby="pregunta13" data-parent="#preguntasAccordion" >
+                      <div class="card-body">
+                        <p>El Credential Stuffing es una tecnica utilizada por los ciberdelincuentes para obtener acceso no autorizado a cuentas de usuarios mediante el uso de credenciales filtradas. Consiste en tomar combinaciones de nombres de usuario y contrasenas obtenidas de violaciones de datos previas y probarlas automaticamente en diversos servicios y plataformas, utilizando bots o programas automatizados.</p>
+                        <ul>
+                          <p>Dado que muchas personas tienden a reutilizar las mismas contrasenas en diferentes cuentas, los atacantes se aprovechan de esto para probar las credenciales filtradas en otros servicios populares, como redes sociales, plataformas de correo electronico o tiendas en linea. Si las credenciales funcionan, los ciberdelincuentes pueden acceder a la cuenta comprometida y realizar diversas acciones maliciosas, como robar informacion personal o financiera, enviar mensajes fraudulentos o realizar compras no autorizadas.</p>
+                          <p>Para protegerse del Credential Stuffing, es fundamental seguir buenas practicas de seguridad, como utilizar contrasenas unicas y robustas para cada cuenta, implementar la autenticacion de dos factores (2FA) cuando este disponible, monitorear las actividades de las cuentas y mantenerse informado sobre las ultimas violaciones de 
+                            datos para tomar las medidas necesarias, como cambiar las contrasenas de las cuentas afectadas. Ademas, las organizaciones y proveedores de servicios tambien deben implementar medidas de seguridad, como la deteccion de patrones de acceso sospechosos y la limitacion de intentos de inicio de sesion fallidos, para mitigar los riesgos asociados con el Credential Stuffing.</p>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -->
+
+  
+              </div>
+              <!-- Agrega los enlaces a los archivos JS de Bootstrap y jQuery -->
+              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+              </body>
+              </html>
